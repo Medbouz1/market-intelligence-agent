@@ -26,3 +26,9 @@ Portal URL does not imply that a free API or redistribution license is available
 **Facts:** cite an exact observation. **Interpretations:** say who attributed it. **Hypotheses:** conditional, not observed. Consensus is not a released statistic.
 
 Failure rule: do not fill a gap with the previous report. Mark missing as unavailable, explain why, and continue only with validated inputs.
+
+## Collecte web, API et limites d'utilisation
+
+Voir le [guide détaillé de collecte automatisée](COLLECTE_AUTOMATISEE.md) pour le comparatif Reuters / Yahoo Finance / Investing.com / Boursorama, les conditions d'accès, la collecte BCE et les limites des bibliothèques non officielles. Voir aussi [l'exemple officiel EUR/USD](../examples/ecb_eurusd.py).
+
+Pour le backtesting, privilégier les **vintages historiques** et un instant de disponibilité prouvé; l'heure de l'observation n'est pas la date à laquelle un participant au marché pouvait connaître la valeur.
