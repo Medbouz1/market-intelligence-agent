@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "market-intelligence-agent"
+version = "0.1.0"
+description = "Auditable institutional market reporting toolkit"
+requires-python = ">=3.11"
+dependencies = ["reportlab>=4.2,<5"]
+
+[project.scripts]
+market-intelligence = "market_intelligence.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
