@@ -31,3 +31,9 @@ Generated reports/market_intelligence.json contains:
 The Quorum consumer MUST reject synthetic=true, observations arriving after its backtest cutoff, unknown source IDs, unreconciled NAV when portfolio data matter, and any payload requesting trading action.
 
 Potential research: macro surprises vs pre-release consensus, sector rotation, oil/FX/rates sensitivity, event volatility, cross-sectional dispersion. These ideas have no proven alpha unless tested out of sample after realistic costs.
+
+## Données as-of et disponibilité effective : exigence supplémentaire
+
+La politique temporelle détaillée figure dans [Collecte automatique et vérification des sources](COLLECTE_AUTOMATISEE.md). Le contrat v0.1 ne vérifie encore que l'heure du snapshot et l'heure asof : **cela ne prouve pas l'absence de fuite temporelle** pour une publication macro ou une statistique révisée.
+
+Avant d'alimenter un backtest Alpha Lab, il faudra ajouter un stockage append-only et des champs distincts pour observation, publication, récupération, disponibilité et vintage. Le consommateur de recherche devra mettre en quarantaine toute information sans date de disponibilité démontrée, et empêcher le transfert direct vers un exécuteur d'ordres.
