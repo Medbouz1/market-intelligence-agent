@@ -1,0 +1,209 @@
+{
+  "edition": {
+    "asof": "2026-11-16T08:00:00+01:00",
+    "timezone": "Europe/Paris"
+  },
+  "synthetic": true,
+  "sources": [
+    {
+      "id": "DEMO",
+      "title": "Données strictement fictives pour tester le rendu",
+      "url": "https://example.org/financial-demo"
+    }
+  ],
+  "summary": [
+    {
+      "kind": "fact",
+      "text": "EXEMPLE FICTIF : cet aperçu ne contient aucune cotation de marché réelle.",
+      "source_ids": [
+        "DEMO"
+      ]
+    },
+    {
+      "kind": "interpretation",
+      "text": "EXEMPLE FICTIF : la dispersion sectorielle mérite une vérification indépendante.",
+      "source_ids": [
+        "DEMO"
+      ]
+    },
+    {
+      "kind": "hypothesis",
+      "text": "EXEMPLE : si les taux progressent, certaines valorisations peuvent être sous pression.",
+      "source_ids": []
+    }
+  ],
+  "markets": [
+    {
+      "instrument": "S&P 500",
+      "value": 1000,
+      "unit": "points",
+      "change": "+0,5 %",
+      "status": "close",
+      "asof": "2026-11-13T22:00:00+01:00",
+      "source_id": "DEMO"
+    },
+    {
+      "instrument": "Nasdaq 100",
+      "value": 1005,
+      "unit": "points",
+      "change": "-0,5 %",
+      "status": "close",
+      "asof": "2026-11-13T22:00:00+01:00",
+      "source_id": "DEMO"
+    },
+    {
+      "instrument": "CAC 40",
+      "value": 1010,
+      "unit": "points",
+      "change": "+0,5 %",
+      "status": "close",
+      "asof": "2026-11-13T22:00:00+01:00",
+      "source_id": "DEMO"
+    },
+    {
+      "instrument": "Euro Stoxx 50",
+      "value": 1015,
+      "unit": "points",
+      "change": "-0,5 %",
+      "status": "close",
+      "asof": "2026-11-13T22:00:00+01:00",
+      "source_id": "DEMO"
+    },
+    {
+      "instrument": "UST 2Y",
+      "value": 1020,
+      "unit": "%",
+      "change": "+0,5 %",
+      "status": "close",
+      "asof": "2026-11-13T22:00:00+01:00",
+      "source_id": "DEMO"
+    },
+    {
+      "instrument": "UST 10Y",
+      "value": 1025,
+      "unit": "%",
+      "change": "-0,5 %",
+      "status": "close",
+      "asof": "2026-11-13T22:00:00+01:00",
+      "source_id": "DEMO"
+    },
+    {
+      "instrument": "Bund 2Y",
+      "value": 1030,
+      "unit": "%",
+      "change": "+0,5 %",
+      "status": "close",
+      "asof": "2026-11-13T22:00:00+01:00",
+      "source_id": "DEMO"
+    },
+    {
+      "instrument": "Bund 10Y",
+      "value": 1035,
+      "unit": "%",
+      "change": "-0,5 %",
+      "status": "close",
+      "asof": "2026-11-13T22:00:00+01:00",
+      "source_id": "DEMO"
+    },
+    {
+      "instrument": "EUR/USD",
+      "value": 1040,
+      "unit": "USD/EUR",
+      "change": "+0,5 %",
+      "status": "close",
+      "asof": "2026-11-13T22:00:00+01:00",
+      "source_id": "DEMO"
+    },
+    {
+      "instrument": "Gold",
+      "value": 1045,
+      "unit": "USD",
+      "change": "-0,5 %",
+      "status": "close",
+      "asof": "2026-11-13T22:00:00+01:00",
+      "source_id": "DEMO"
+    },
+    {
+      "instrument": "Brent",
+      "value": 1050,
+      "unit": "USD",
+      "change": "+0,5 %",
+      "status": "close",
+      "asof": "2026-11-13T22:00:00+01:00",
+      "source_id": "DEMO"
+    },
+    {
+      "instrument": "WTI",
+      "value": 1055,
+      "unit": "USD",
+      "change": "-0,5 %",
+      "status": "close",
+      "asof": "2026-11-13T22:00:00+01:00",
+      "source_id": "DEMO"
+    }
+  ],
+  "macro": [
+    {
+      "kind": "fact",
+      "text": "EXEMPLE FICTIF : communiqué économique de démonstration.",
+      "source_ids": [
+        "DEMO"
+      ]
+    },
+    {
+      "kind": "interpretation",
+      "text": "EXEMPLE FICTIF : explication attribuée à une source de démonstration.",
+      "source_ids": [
+        "DEMO"
+      ]
+    },
+    {
+      "kind": "hypothesis",
+      "text": "EXEMPLE : tester la sensibilité à la volatilité des taux.",
+      "source_ids": []
+    }
+  ],
+  "risks": [
+    {
+      "title": "Inflation",
+      "upside": "Désinflation confirmée",
+      "downside": "Nouvelle surprise haussière"
+    },
+    {
+      "title": "Intelligence artificielle",
+      "upside": "Trésorerie et commandes solides",
+      "downside": "Révision des budgets"
+    },
+    {
+      "title": "Énergie",
+      "upside": "Approvisionnement stable",
+      "downside": "Choc d'offre"
+    }
+  ],
+  "events": [
+    {
+      "title": "Événement A FICTIF",
+      "asof": "2026-11-17T14:30:00+01:00",
+      "impact": "Démo",
+      "verified": false,
+      "source_ids": []
+    },
+    {
+      "title": "Événement B FICTIF",
+      "asof": "2026-11-18T14:30:00+01:00",
+      "impact": "Démo",
+      "verified": false,
+      "source_ids": []
+    },
+    {
+      "title": "Événement C FICTIF",
+      "asof": "2026-11-19T14:30:00+01:00",
+      "impact": "Démo",
+      "verified": false,
+      "source_ids": []
+    }
+  ],
+  "portfolio": {
+    "status": "inaccessible"
+  }
+}
