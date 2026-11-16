@@ -27,3 +27,9 @@
 - [ ] Out-of-sample feature evaluation, strict no-look-ahead
 
 Never activate a billable API or brokerage permission by default.
+
+## Priorité méthodologique ajoutée (collecte)
+- [ ] Conserver observation_at, published_at, retrieved_at, available_at prouvé et vintage_id pour toute publication macro ou donnée révisable
+- [ ] Construire des tests de non-fuite temporelle sur données historiques et reconstitutions de publications
+- [ ] Vérifier les droits des fournisseurs avant collecte automatisée ou redistribution; éviter le scraping non autorisé de Reuters, Yahoo Finance, Investing.com et Boursorama
+- [ ] Intégrer l'adaptateur BCE EUR/USD de démonstration dans un véritable snapshot source-aware (exemple actuel : examples/ecb_eurusd.py)
