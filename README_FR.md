@@ -57,3 +57,9 @@ Lien du dépôt : https://github.com/Medbouz1/market-intelligence-agent
 Créer sa propre copie : https://github.com/Medbouz1/market-intelligence-agent/generate
 
 Licence MIT ; toute contribution doit conserver les garde-fous sur la provenance des sources, la confidentialité et les ordres.
+
+## Comment les informations sont collectées (Reuters, Yahoo, Investing, Boursorama, API officielles)
+
+Le guide complet [Collecte automatique et vérification des sources](docs/COLLECTE_AUTOMATISEE.md) explique ce que fait une recherche web, les limites juridiques des quatre plateformes, les API BCE/FRED/BLS/BEA/Treasury et la stratégie de validation. Un [exemple Python EUR/USD via la BCE](examples/ecb_eurusd.py) est fourni.
+
+**Important :** la présence de ces documents ne signifie pas que le dépôt dispose déjà de connecteurs de production aux quatre sites. Les données de marché doivent provenir de sources officielles ou autorisées, et chaque source nécessite une vérification des droits d'utilisation.
